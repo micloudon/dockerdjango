@@ -27,7 +27,7 @@ We're going to create a new app in our project:
         **my container name is 'docker_web_1'
         *my app name is hello
 
-A new folder will be created
+A new folder will be created.
 
 You may need to update your permissions:
 
@@ -36,4 +36,4 @@ You may need to update your permissions:
 
 Now you have an a django environment up and running inside a docker container.
 
-A few thing to consider; you may want to add a migration section to the docker-compose.yml file because realisticly any django project will migrates that you will need to make.
+A few thing to consider; you may want to add a migration section to the docker-compose.yml file because realistically any django project will have migrations that will need to be made.
